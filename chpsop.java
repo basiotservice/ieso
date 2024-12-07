@@ -66,11 +66,8 @@ public void onExecute() throws Exception
   if (in>=35)
   {
     BEmailAddress[] e= new BEmailAddress[5];
-    e[0]=BEmailAddress.make("4168864475@txt.bell.ca");//sw
-    e[1]=BEmailAddress.make("4165737454@txt.bell.ca");//ak
-    e[2]=BEmailAddress.make("2264022839@txt.bell.ca");//Meet  
-    e[3]=BEmailAddress.make("9052423765@txt.bell.ca");//aj  
-    e[4]=BEmailAddress.make("6476165190@txt.bell.ca");//kw
+    e[0]=BEmailAddress.make("1234567890@txt.bell.ca");//sw
+
      
     hi+=100;  
     BEmail email=new BEmail(BEmailAddressList.make(e),"CHPSOP","$"+in+"/MWh at "+getInTime());
